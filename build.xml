@@ -29,8 +29,8 @@
 	</target>
 	<target name="compile" depends="xjc">
 		<mkdir dir="bin" />
-		<copy todir="bin" file="src/main/xsd/documenttests.xsd">
-			<fileset dir="rng" />
+		<copy todir="bin" file="src/main/resources/documenttests.xsd">
+			<fileset dir="src/main/resources/rng" />
 		</copy>
 		<copy todir="bin" file="report2html.xsl" />
 		<copy todir="bin" file="removeForeign.xsl" />
