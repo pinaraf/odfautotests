@@ -19,7 +19,7 @@
 			<arg value="-xmlschema" />
 			<arg value="-target" />
 			<arg value="2.1" />
-			<arg file="src/main/xsd/documenttests.xsd" />
+			<arg file="src/main/resources/documenttests.xsd" />
 			<arg value="-d" />
 			<arg file="src/main/java" />
 			<classpath>
