@@ -19,7 +19,7 @@
 			<arg value="-xmlschema" />
 			<arg value="-target" />
 			<arg value="2.1" />
-			<arg file="documenttests.xsd" />
+			<arg file="src/main/xsd/documenttests.xsd" />
 			<arg value="-d" />
 			<arg file="src/main/java" />
 			<classpath>
@@ -29,7 +29,7 @@
 	</target>
 	<target name="compile" depends="xjc">
 		<mkdir dir="bin" />
-		<copy todir="bin" file="documenttests.xsd">
+		<copy todir="bin" file="src/main/xsd/documenttests.xsd">
 			<fileset dir="rng" />
 		</copy>
 		<copy todir="bin" file="report2html.xsl" />
