@@ -24,3 +24,5 @@ configs/libreofficestrictconfig/user/uno_packages/
 lib/itext.zip
 lib/itextpdf-*.jar
 src/org/example/
+/target/
+
