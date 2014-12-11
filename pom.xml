@@ -73,12 +73,13 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.opendocumentformat.profiler.OfficeProfiler</mainClass>
+                            <mainClass>org.opendocumentformat.tester.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
+                    <finalName>odftester.jar</finalName>
                 </configuration>
             </plugin>
         </plugins>
